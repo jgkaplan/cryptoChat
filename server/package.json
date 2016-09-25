@@ -1,0 +1,29 @@
+{
+  "name": "crypt-chat-server",
+  "version": "1.0.0",
+  "description": "Server for cryptoChat",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgkaplan/cryptoChat.git"
+  },
+  "keywords": [
+    "chat",
+    "encryption"
+  ],
+  "author": "jgkaplan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgkaplan/cryptoChat/issues"
+  },
+  "homepage": "https://github.com/jgkaplan/cryptoChat#readme",
+  "dependencies": {
+    "aes-js": "^2.0.0",
+    "body-parser": "^1.15.2",
+    "kbpgp": "^2.0.58",
+    "socket.io": "^1.4.8"
+  }
+}
